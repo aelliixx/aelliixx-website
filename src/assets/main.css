@@ -1,0 +1,49 @@
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin-block-start: 0.5rem;
+}
+
+.underline-blue {
+  text-decoration-line: underline;
+  text-decoration-color: #7094c2;
+  -moz-text-decoration-color: #7094c2;
+  -webkit-text-decoration-color: #7094c2;
+}
+
+.underline-red {
+  text-decoration-line: underline;
+  text-decoration-color: #cc5c54;
+  -moz-text-decoration-color: #cc5c54;
+  -webkit-text-decoration-color: #cc5c54;
+}
+
+.underline-green {
+  text-decoration-line: underline;
+  text-decoration-color: #6dc09c;
+  -moz-text-decoration-color: #6dc09c;
+  -webkit-text-decoration-color: #6dc09c;
+}
+
+.link,
+.link-subdued {
+  transition: text-shadow 100ms ease-in-out;
+}
+.link:is(:hover, :focus-visible) {
+  text-shadow: 0 0 2rem var(--clr-accent), 0 0 1rem var(--clr-accent);
+}
+
+.link-subdued:is(:hover, :focus-visible) {
+  text-shadow: 0 0 2rem var(--clr-accent-200), 0 0 1rem var(--clr-accent-200);
+}
