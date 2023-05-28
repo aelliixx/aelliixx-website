@@ -29,4 +29,15 @@
   gap: 3rem;
   font-size: 1.25rem;
 }
+
+@media (max-width: 622px) {
+  .navbar {
+    align-items: start;
+  }
+  .links {
+    flex-direction: column;
+    text-align: right;
+    gap: 1rem;
+  }
+}
 </style>

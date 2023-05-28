@@ -297,7 +297,6 @@ section:not(:first-of-type) {
 
 .projects-container {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 3rem;
   margin-block-start: 1rem;
 
@@ -339,6 +338,43 @@ section:not(:first-of-type) {
     text-decoration-line: underline;
     text-decoration-thickness: 0.25rem;
     font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 622px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-container {
+    .card-container {
+      grid-template-columns: 1fr;
+
+      > * {
+        grid-column: span 1 !important;
+        grid-row: span 1 !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .table {
+    .row {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+      &:first-of-type {
+        display: none;
+      }
+
+      p:nth-of-type(1), p:nth-of-type(2) {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .email {
+    font-size: 1rem !important;
   }
 }
 </style>
