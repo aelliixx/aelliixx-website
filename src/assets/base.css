@@ -48,7 +48,6 @@ body {
 body:before {
   content: "";
   position: absolute;
-  background: red;
   filter: url(#noiseFilter);
   opacity: 0.15;
   width: 100%;
