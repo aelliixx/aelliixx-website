@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ProjectCard from "../components/ProjectCard.vue";
+import Testimony from "@/components/Testimony.vue";
 </script>
 
 <template>
@@ -226,6 +227,13 @@ import ProjectCard from "../components/ProjectCard.vue";
           </p>
         </div>
       </div>
+    </section>
+    <section id="testimony">
+      <h2>testimonies.</h2>
+      <Testimony name="Sam" image-url="https://cdn.discordapp.com/avatars/965958179437576202/1b768414d38e7a2fecd1aac77f636d76.webp?size=128"
+                 source="Lead Producer at Mindflair Games">
+        Donatas is a talented developer who comprehends assigned tasks. He willingly offers suggestions and technical assistance to ensure well-executed features. He's efficient and organized in his coding work.
+      </Testimony>
     </section>
     <section id="contact">
       <h2>contact.</h2>
