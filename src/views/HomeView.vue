@@ -243,7 +243,7 @@ import Testimony from "@/components/Testimony.vue";
           developing your next game title, I have the experience to bring your project from start to
           finish.
         </p>
-        <p>You can reach out to be by email:</p>
+        <p>You can reach out to me by email:</p>
         <a href="mailto:donatas@allographic.io" class="underline-blue email link-subdued"
         >donatas@allographic.io</a
         >
